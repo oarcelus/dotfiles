@@ -1,6 +1,6 @@
 #!/bin/bash
 
-packages=("nvim" "tmux" "credentials")
+packages=("nvim" "tmux")
 
 for package in "${packages[@]}"; do
     stow -v --target=$HOME "$package"
